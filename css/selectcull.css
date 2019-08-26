@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  
+  input {
+    width: 100%;
+  }
+  
+  .half {
+    width: 50%;
+    float: left;
+  }
+}
+
+.item {
+  display: flex;
+  
+  &:first-child .js-remove-item {
+    visibility: hidden;
+  }
+  
+  > * {
+    margin-right: 10px;
+  }
+}
